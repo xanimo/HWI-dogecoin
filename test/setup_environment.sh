@@ -258,7 +258,7 @@ if [[ -n ${build_dogecoind} ]]; then
     if [ ! -d "dogecoin" ]; then
         git clone https://github.com/rnicoll/dogecoin.git
         cd dogecoin
-	git checkout 1.21-post-auxpow-branding
+	git checkout v1.21.0-2021-08-08
         dogecoind_setup_needed=true
     else
         cd dogecoin
